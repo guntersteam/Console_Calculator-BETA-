@@ -1,0 +1,11 @@
+/*
+Оголосіть статичний метод Summa(), який одержує цілий масив
+та повертає суму його елементів.
+*/
+static int Summa(int[] m){
+    int sum = 0;
+    for(int i; i< m.Length;i++){
+        sum += m[i];
+    }
+    return sum;
+}
