@@ -72,30 +72,6 @@ namespace Project
             Console.ReadKey();
 
         }
-        // public static int find_indx(int[] seq)
-        // {
-        //     byte score = 0;
-        //     for (int i = 0; i < seq.Length; i++)
-        //     {
-        //         for (int j = 0; j < seq.Length; j++)
-        //         {
-        //             if (seq[i] == seq[j])
-        //             {
-        //                 score++;
-        //                 if (score % 2 != 0)
-        //                 {
-        //                     return score;
-        //                 }
-        //             }
-        //             else
-        //             {
-        //                 continue;
-        //             }
-        //         }
-
-        //     }
-
-        // }
     }
 
 }
